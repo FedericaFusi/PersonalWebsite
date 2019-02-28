@@ -5,7 +5,7 @@ navbar:
   type: inverse
   left:
     - text: "Home"
-      href: Aboutme.html
+      href: AboutMe.html
   right:
     - icon: fa-github fa-2x
       href: https://github.com/FedericaFusi/PersonalWebsite/tree/master
