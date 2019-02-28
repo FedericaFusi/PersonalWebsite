@@ -1,0 +1,17 @@
+---
+title: "Intro"
+author: "Federica Fusi"
+date: "February 27, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# About me
+
+I received my PhD in Public Administration and Public Policy at the School of Public Affairs at Arizona State University. Currently, I work as research associate at the Center for Science, Technology, and Environmental Policy Studies (C-STEPS) at Arizona State University,  where I am engaged in several grant-funded research projects as well as conduct my own research. In Fall 2019, I will join the Department of Public Administration at the University of Illinois at Chicago. 
+
+Before moving to the US, I lived in Italy, Paris and Brussels. I got my M.S. in Public Management and International Institutions from Bocconi University (Italy) and my M.A. in Urban Policies and Territorial Strategies from Sciences Po (France). Before being an academic, I worked at the Institute for Policy Analysis and Statistical Research in Milan and co-funded Pagella Politica, Italy's leading fact-checking website. 
+
