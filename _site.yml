@@ -1,5 +1,5 @@
 name: "Federica Fusi"
-output_dir: "../docs"
+output_dir: "..PersonalWebiste/docs"
 navbar:
   title: "Fede Fusi"
   type: inverse
