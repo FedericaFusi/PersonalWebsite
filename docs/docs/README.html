@@ -9,11 +9,9 @@
 <meta name="generator" content="pandoc" />
 
 
-<meta name="author" content="Federica Fusi" />
 
-<meta name="date" content="2019-02-27" />
 
-<title>Intro</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,11 +20,9 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/navigation-1.1/codefolding.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -73,6 +69,7 @@ h6 {
 }
 </style>
 
+<link rel="stylesheet" href="custom.css" type="text/css" />
 
 </head>
 
@@ -167,6 +164,14 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
 
 
 
@@ -186,7 +191,7 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="AboutMe.html">Home</a>
+  <a href="Aboutme.html">Home</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -203,21 +208,37 @@ $(document).ready(function () {
 
 <div class="fluid-row" id="header">
 
-
-
-<h1 class="title toc-ignore">Intro</h1>
-<h4 class="author"><em>Federica Fusi</em></h4>
-<h4 class="date"><em>February 27, 2019</em></h4>
-
+<div class="btn-group pull-right">
+<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
 </div>
 
 
-<div id="about-me" class="section level1">
-<h1>About me</h1>
-<p>I received my PhD in Public Administration and Public Policy at the School of Public Affairs at Arizona State University. Currently, I work as research associate at the Center for Science, Technology, and Environmental Policy Studies (C-STEPS) at Arizona State University, where I am engaged in several grant-funded research projects as well as conduct my own research. In Fall 2019, I will join the Department of Public Administration at the University of Illinois at Chicago.</p>
-<p>Before moving to the US, I lived in Italy, Paris and Brussels. I got my M.S. in Public Management and International Institutions from Bocconi University (Italy) and my M.A. in Urban Policies and Territorial Strategies from Sciences Po (France). Before being an academic, I worked at the Institute for Policy Analysis and Statistical Research in Milan and co-funded Pagella Politica, Italy’s leading fact-checking website.</p>
+
+
 </div>
 
+<div id="TOC">
+<ul>
+<li><a href="#federica-fusi"><span class="toc-section-number">1</span> Federica Fusi</a></li>
+</ul>
+</div>
+
+<div id="federica-fusi" class="section level1">
+<h1><span class="header-section-number">1</span> Federica Fusi</h1>
+</div>
+
+<div class="footer">
+<div class="row"  align="center">
+
+  Designed by <a href=http://ds4ps.github.io target="_blank">DS4PS</a><br>
+  Powered by <a href=http://jekyllrb.com target="_blank">Jekyll</a>
+
+</div>
+</div>
 
 
 
