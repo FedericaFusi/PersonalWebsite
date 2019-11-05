@@ -1,19 +1,7 @@
 name: "Federica Fusi"
-output_dir: "../docs"
 navbar:
   title: "Fede Fusi"
-  type: inverse
   left:
     - text: "Home"
       href: AboutMe.html
-  right:
-    - icon: fa-github fa-2x
-      href: https://github.com/FedericaFusi/PersonalWebsite/tree/master
-output:
-  bookdown::html_document2:
-    toc: yes
-    toc_depth: 3
-    code_folding: hide
-    css: custom.css
-    includes:
-      after_body: footer.html
+  
